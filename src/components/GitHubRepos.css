@@ -1,15 +1,17 @@
-.repo-list {
-  padding: 1rem;
+.repo-list ul {
+  padding:0;
   max-width: 700px;
   margin: 0 auto;
-
+  list-style: none;  
 }
 
+
 .search-bar {
-  width: 100%;
+  width: 680px;
   padding: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1rem;
+  
 }
 
 .repo-card {
@@ -25,3 +27,24 @@
   font-size: 2rem;
 }
 
+
+.repo-card p {
+  margin: 0.5rem 0;
+  color: #ccc;
+}
+.repo-card a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.repo-card a:hover {
+  text-decoration: underline;
+}
+.repo-card .repo-description {
+  margin-top: 0.5rem;
+  color: #bbb;
+}
+.repo-card .repo-stars {
+  color: #f39c12;
+  font-weight: bold;
+}
