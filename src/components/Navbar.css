@@ -1,13 +1,16 @@
 .navbar {
   position: sticky;
   top: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+  width: 100vw;
   z-index: 1000;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  box-sizing: border-box; /* Ensures padding doesn't cause overflow */
 
   background-color: #24292e;
   color: white;
@@ -42,5 +45,5 @@
 .container {
   max-width: 700px;
   margin: 0 auto;
-  padding: 0 1rem; /* add some horizontal padding */
+  padding: 0; 
 }
