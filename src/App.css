@@ -9,3 +9,21 @@
 h1 {
   margin-bottom: 2rem;
 }
+
+h2 {
+  margin-bottom: 1rem;
+  color: #61dafb;
+}
+p {
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+button {
+  background-color: #61dafb;
+  color: #24292e;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
