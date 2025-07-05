@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+  box-sizing: border-box; 
 
   background-color: #24292e;
   color: white;
@@ -21,6 +21,10 @@
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+}
+logo:hover {
+  color: #61dafb;
+  text-decoration: none;
 }
 
 .nav-links {
