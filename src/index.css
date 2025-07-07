@@ -41,6 +41,34 @@ h1 {
   line-height: 1.1;
 }
 
+.page.home {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+
+}
+.page.about {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+.page.projects {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+.page.contact {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+  max-width: 96.7%;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
