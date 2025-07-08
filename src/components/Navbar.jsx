@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css"; // optional for styling
+import "./Navbar.css";
+import sloth from "../assets/sloth.jpg";
 
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">Tivva34</h2>
+      <Link to="/" className="logo-link">
+        <img src={sloth} alt="Logo" className="logo-img" />
+      </Link>
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
