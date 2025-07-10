@@ -49,3 +49,15 @@
   color: #f39c12;
   font-weight: bold;
 }
+
+.tech-icons {
+  
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.tech-icon {
+  
+  width: 24px;
+  height: 24px;
+}
