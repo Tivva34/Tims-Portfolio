@@ -53,9 +53,10 @@ h1 {
   margin: auto;
 }
 .page.projects {
+  margin-top: 4rem;
   padding: 2em;
   max-width: 800px;
-  margin: auto;
+  
 }
 .page.contact {
   padding: 2em;

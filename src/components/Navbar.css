@@ -70,11 +70,12 @@ logo:hover {
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
+    margin-bottom: 1rem;
   }
 }
 @media (max-width: 480px) {
   .navbar {
-    padding: 0.5rem 1rem;
+    padding:  1rem;
   }
 
   .logo {
