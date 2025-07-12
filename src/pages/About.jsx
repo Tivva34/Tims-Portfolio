@@ -6,8 +6,10 @@ export default function About() {
     <div className="page about">
       <h1>About Me</h1>
       <p>
-        I'm a frontend developer with a focus on React, creativity, and clean code.
-        I enjoy learning new technologies and bringing ideas to life.
+        I began programming in 2020 while studying game development, but I soon discovered that my true passion lay in coding itself rather than game design. 
+        Since then, I’ve shifted my focus to web development, with a particular interest in frontend technologies like React.
+        Currently, I’m studying to become a frontend developer, emphasizing React, creativity, and writing clean, maintainable code. 
+        I love exploring new technologies and turning ideas into interactive, user-friendly experiences.
       </p>
     </div>
     </div>
