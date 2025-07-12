@@ -42,23 +42,26 @@ h1 {
 }
 
 .page.home {
+  
   padding: 2em;
   max-width: 800px;
   margin: auto;
 
 }
 .page.about {
+  
   padding: 2em;
   max-width: 800px;
   margin: auto;
 }
 .page.projects {
-  margin-top: 4rem;
+  
   padding: 2em;
   max-width: 800px;
   
 }
 .page.contact {
+  
   padding: 2em;
   max-width: 800px;
   margin: auto;
