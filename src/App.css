@@ -5,7 +5,6 @@
   font-family: Arial, sans-serif;
   text-align: center;
 }
-
 h1 {
   margin-bottom: 2rem;
 }
@@ -30,7 +29,6 @@ button {
 button:hover {
   background-color: #21a1f1;
 }
-
 a {
   color: #61dafb;
   text-decoration: none;

@@ -42,14 +42,12 @@ h1 {
 }
 
 .page.home {
-  
   padding: 2em;
   max-width: 800px;
   margin: auto;
 
 }
 .page.about {
-  
   padding: 2em;
   max-width: 800px;
   margin: auto;
@@ -61,7 +59,6 @@ h1 {
   
 }
 .page.contact {
-  
   padding: 2em;
   max-width: 800px;
   margin: auto;
