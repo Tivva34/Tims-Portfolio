@@ -5,7 +5,6 @@
   list-style: none;  
 }
 
-
 .search-bar {
   width: 680px;
   padding: 0.5rem;
@@ -13,7 +12,6 @@
   font-size: 1rem;
   
 }
-
 
 .repo-card {
   background: #3a035a;
@@ -27,7 +25,6 @@
   margin: 0;
   font-size: 2rem;
 }
-
 
 .repo-card p {
   margin: 0.5rem 0;
