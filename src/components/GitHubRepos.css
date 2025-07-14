@@ -14,7 +14,7 @@
 }
 
 .repo-card {
-  background: #3a035a;
+  background: #2f2e30;
   border-radius: 10px;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -48,7 +48,6 @@
 }
 
 .tech-icons {
-  
   display: flex;
   margin-top: 0.5rem;
 }
