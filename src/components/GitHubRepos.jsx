@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import "./GitHubRepos.css";
 
-import jsLogo from "../assets/javascript.svg";
-import tsLogo from "../assets/typescript.svg";
-import reactLogo from "../assets/react.svg";
-import htmlLogo from "../assets/html5.svg";
-import cssLogo from "../assets/css.svg";
-import nodeLogo from "../assets/nodedotjs.svg";
+import jsLogo from "../assets/languages/javascript.svg";
+import tsLogo from "../assets/languages/typescript.svg";
+import reactLogo from "../assets/languages/react.svg";
+import htmlLogo from "../assets/languages/html5.svg";
+import cssLogo from "../assets/languages/css.svg";
+import nodeLogo from "../assets/languages/nodedotjs.svg";
 
 const techIcons = {
   JavaScript: jsLogo,
