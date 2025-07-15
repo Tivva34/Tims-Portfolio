@@ -16,7 +16,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  overflow-x: hidden; /* Prevents horizontal scroll */
+  overflow-x: hidden;
 }
 a {
   font-weight: 500;
@@ -101,3 +101,41 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 768px) {
+  .page.home,
+  .page.about,
+  .page.projects,
+  .page.contact {
+    padding: 1em;
+    max-width: 100%;
+  }
+  .search-bar {
+    width: 100%;
+    padding: 0.5em;
+  }
+} 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.4em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  button {
+    width: 100%;
+    padding: 0.8em;
+  }
+}
+@media (max-width: 320px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  button {
+    padding: 0.6em;
+  }
+}
+
