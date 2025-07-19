@@ -62,6 +62,80 @@ logo:hover {
   border : 2px solid gray;
   
 }
+.navbar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  vertical-align: middle;
+  border: 2px solid gray;
+}
+.navbar img:hover {
+  border-color: #61dafb;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  color: #61dafb;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+.navbar .logo img {
+  margin-right: 0.5rem;
+}
+.navbar .logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar .nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+.navbar .nav-links a:hover {
+  text-decoration: underline;
+  color: #61dafb;
+}
+.navbar .nav-links li {
+  list-style: none;
+}
+.navbar .nav-links li a {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+.navbar .nav-links li a:hover {
+  background-color: rgba(97, 218, 251, 0.1);
+}
+.navbar .nav-links li a.active {
+  background-color: rgba(97, 218, 251, 0.2);
+  color: #61dafb;
+}
+.navbar .nav-links li a.active:hover {
+  background-color: rgba(97, 218, 251, 0.3);
+}
+.navbar .nav-links li a.active {
+  color: #61dafb;
+  font-weight: bold;
+}
+.navbar .nav-links li a.active:hover {
+  text-decoration: none;
+  color: #61dafb;
+}
+
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -93,3 +167,4 @@ logo:hover {
     width: 30px;
   }
 }
+
