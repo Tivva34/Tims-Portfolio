@@ -108,8 +108,6 @@ button:focus-visible {
   transition: opacity 350ms, transform 350ms;
 }
 
-
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
