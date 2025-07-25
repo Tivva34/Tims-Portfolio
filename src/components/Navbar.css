@@ -53,26 +53,30 @@ logo:hover {
   padding: 0; 
 }
 .logo-img {
+  margin-top: 1rem;
   height: 50px;
   width: 50px;
   border-radius: 5px;
   object-fit:contain;
   margin-bottom: 1rem;
   vertical-align: middle;
-  border : 2px solid gray;
-  
+  border : 2px solid gray;  
 }
 .navbar img {
   height: 50px;
   width: 50px;
   border-radius: 5px;
   object-fit: contain;
-  margin-bottom: 1rem;
   vertical-align: middle;
   border: 2px solid gray;
+  transition: border-color 0.2s ease-in-out;
+  margin-right: 1rem;
 }
 .navbar img:hover {
   border-color: #61dafb;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out;
+
 }
 .navbar a {
   color: white;
