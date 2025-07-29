@@ -11,6 +11,7 @@ export default function Home() {
           This portfolio is built with React and showcases my work and interests in web development.
           Feel free to explore and connect with me!
         </p>
+        
       </div>
     </div>
   );
