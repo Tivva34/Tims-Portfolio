@@ -8,7 +8,7 @@ export default function NotFound() {
       <h1>404 - Page Not Found</h1>
       <p>The page you're looking for doesn't exist.</p>
       <Link to="/">Go back to Home</Link>
-      <link to="/contact">Contact me if you need help</link>
+      <p><link to="/contact">Contact</link> me if you habe any questions</p>
       <p>Or check out my <Link to="/about">About</Link> page to learn more about me.</p>
       <p>Feel free to explore other sections of the site!</p>
     </div>
