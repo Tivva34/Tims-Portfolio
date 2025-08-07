@@ -24,7 +24,7 @@ function App() {
           nodeRef={nodeRef}
         >
           <div ref={nodeRef}>
-            <Routes location={location}>
+           <Routes location={location}>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
