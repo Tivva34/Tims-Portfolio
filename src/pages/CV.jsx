@@ -23,7 +23,7 @@ const CV = () => {
       </ul>
 
       <h2>Education</h2>
-      <p><strong>Game Development Studies — 2020</strong><br />
+      <p><strong>Game Development Studies - 2020</strong><br />
         Kristinehamns Folkhögskola, Karlstad/Kristinehamn
       </p>
       <ul>
@@ -31,7 +31,7 @@ const CV = () => {
         <li>Developed small projects and prototypes.</li>
       </ul>
 
-      <p><strong>Self-Directed Web Development Studies — 2020–Present</strong></p>
+      <p><strong>Self-Directed Web Development Studies - 2020 - Present</strong></p>
       <ul>
         <li>Transitioned from game development to web development.</li>
         <li>Focused on React, JavaScript, and modern frontend practices.</li>
