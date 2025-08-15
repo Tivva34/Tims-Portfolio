@@ -59,6 +59,7 @@ h1 {
   border-radius: 1rem;
   height: 100%;
 }
+
 .search-bar {
   display: flex;
   align-items: center;
@@ -110,6 +111,37 @@ button:focus-visible {
   opacity: 0;
   transform: translateX(40px);
   transition: opacity 350ms, transform 350ms;
+}
+
+.cv-container {
+  text-align: left;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.cv-container p {
+  margin: 0 0 1.2em;
+  max-width: none;
+  text-align: left;
+}
+
+.cv-container h1,
+.cv-container h2,
+.cv-container ul,
+.cv-container li {
+  text-align: left;
+}
+
+.cv-container ul {
+  padding-left: 1.2rem;
+  margin: 0 0 1.2em;
+}
+.cv-container li {
+  margin: 0 0 .4em;
+}
+.cv-container h2 {
+  
+color: white;
 }
 
 @media (prefers-color-scheme: light) {
