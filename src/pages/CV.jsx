@@ -23,18 +23,18 @@ const CV = () => {
       </ul>
 
       <h2>Education</h2>
-      <p><strong>Game Development Studies - 2020</strong><br />
-        Kristinehamns Folkhögskola, Karlstad/Kristinehamn
-      </p>
+      <h3><strong>Game Development Studies - 2020</strong></h3>
+        <p><strong>Kristinehamns Folkhögskola, Karlstad/Kristinehamn
+      </strong></p>
       <ul>
-        <li>Learned programming fundamentals, game engines, and design concepts.</li>
+        <li>Gained a solid foundation in programming, and developed skills in Unity game engine and game design concepts.</li>
         <li>Developed small projects and prototypes.</li>
       </ul>
 
       <p><strong>Self-Directed Web Development Studies - 2020 - Present</strong></p>
       <ul>
-        <li>Transitioned from game development to web development.</li>
-        <li>Focused on React, JavaScript, and modern frontend practices.</li>
+        <li>Decided to transition from game development to frontend development.</li>
+        <li>Focusing on React, JavaScript, and modern frontend practices.</li>
       </ul>
 
       <h2>Projects</h2>
@@ -44,7 +44,7 @@ const CV = () => {
       </ul>
     
       <h2>Interests</h2>
-      <p>Frontend development, UI/UX design, learning new technologies, creative coding, problem-solving.</p>
+      <p>Frontend development, UI/UX design, learning new technologies,<br/> creative coding, problem-solving.</p>
     </div>
   );
 };

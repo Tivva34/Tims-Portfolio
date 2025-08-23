@@ -32,15 +32,19 @@ p {
   max-width: 500px;   
 
 }
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
 h2 {
   font-size: 2.4em;
   line-height: 1.2;
   margin-top: 0;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h3{
+  font-size: 1.8em;
+  line-height: 1.2;
+  margin-top: 0;
 }
 
 .page.home,
@@ -114,6 +118,23 @@ button:focus-visible {
 }
 
 .cv-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #242425;
+  padding: 2em;
+  max-width: 800px;
+  margin: 2em auto;
+  border-radius: 1rem;
+  height: 100%;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.cv-container {
   text-align: left;
   max-width: 800px;
   margin: 20px auto;
@@ -123,6 +144,8 @@ button:focus-visible {
   margin: 0 0 1.2em;
   max-width: none;
   text-align: left;
+  max-width: 600px;
+
 }
 
 .cv-container h1,
@@ -130,6 +153,7 @@ button:focus-visible {
 .cv-container ul,
 .cv-container li {
   text-align: left;
+  max-width: 500px;
 }
 
 .cv-container ul {
@@ -140,8 +164,10 @@ button:focus-visible {
   margin: 0 0 .4em;
 }
 .cv-container h2 {
-  
 color: white;
+}
+.cv-container strong{
+  font-size: 1.2rem;
 }
 
 @media (prefers-color-scheme: light) {
