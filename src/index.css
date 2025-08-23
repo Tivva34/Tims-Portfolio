@@ -58,6 +58,7 @@ h3{
   background-color: #242425;
   padding: 2em;
   max-width: 800px;
+  width: 80%;
   margin: auto;
   margin-top: 2em;
   border-radius: 1rem;
@@ -74,11 +75,11 @@ h3{
 .repo-card {
   display: flex;
   flex-direction: column;
-  
   border-radius: 8px;
   padding: 1.5em;
   margin: 0 auto 2em;
-  width: 500px;
+  width: 70%;
+  max-width: 500px;
 }
 button {
   border-radius: 8px;
@@ -170,33 +171,40 @@ color: white;
   font-size: 1.2rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
 
 @media (max-width: 768px) {
   .page.home,
   .page.about,
   .page.projects,
-  .page.contact {
+  .page.contact{
     padding: 1em;
-    max-width: 100%;
+    max-width: 90%;
+    width: 90%;
   }
   .search-bar {
-    width: 100%;
+    width: 90%;
     padding: 0.5em;
+  }
+  .repo-card {
+    width: 90%;
+    max-width: 90%;
   }
 } 
 @media (max-width: 480px) {
+  .page.home,
+  .page.about,
+  .page.projects,
+  .page.contact {
+    padding: 1em;
+    width: 90%;
+    max-width: 90%;
+  }
+  .repo-card {
+    width: 90%; 
+    max-width: 100%;
+    padding: 1em;
+  }
+
   h1 {
     font-size: 2.4em;
   }
@@ -209,6 +217,17 @@ color: white;
   }
 }
 @media (max-width: 320px) {
+  .page.home,
+  .page.about,
+  .page.projects,
+  .page.contact {
+    padding: 0.8rem;
+   width: 90%;
+  } 
+  .li.repo-card {
+    width: 80%; 
+    padding: 1em;
+  }
   h1 {
     font-size: 2em;
   }
